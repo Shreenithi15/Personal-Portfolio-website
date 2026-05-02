@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shreenithi V - Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <meta name="description" content="Portfolio of Shreenithi V - Computer Science & Data Science Student">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="logo">
+            <svg width="32" height="32" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" class="logo-svg">
+                <path d="M28 12C28 9.79086 26.2091 8 24 8H16C13.7909 8 12 9.79086 12 12V16C12 18.2091 13.7909 20 16 20H24C26.2091 20 28 21.7909 28 24V28C28 30.2091 26.2091 32 24 32H16C13.7909 32 12 30.2091 12 28" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+                <circle cx="20" cy="20" r="18" stroke="currentColor" stroke-width="2" stroke-dasharray="4 4" class="logo-circle"/>
+            </svg>
+            <span class="logo-text">Shreenithi</span>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><button id="theme-toggle" class="theme-btn" aria-label="Toggle Theme" title="Toggle Light/Dark Mode">☀️</button></li>
+        </ul>
+    </nav>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero section">
+            <div class="hero-content">
+                <h2>Hello, I am</h2>
+                <h1 class="gradient-text">Shreenithi V</h1>
+                <p class="hero-subtitle">
+                    Pre-final year CS student with hands-on experience in Frontend Development, ML-driven solutions, and Data Analytics — building impactful, real-world applications.
+                </p>
+                <div class="social-links">
+                    <a href="mailto:shreenithivijayabaskar@gmail.com" class="social-icon">Email</a>
+                    <a href="#" class="social-icon">LinkedIn</a>
+                    <a href="#" class="social-icon">GitHub</a>
+                    <a href="#" class="social-icon">LeetCode</a>
+                </div>
+                <a href="#" class="btn primary-btn">Download my Resume</a>
+            </div>
+            <div class="hero-image-container">
+                <div class="profile-glow">
+                    <img src="profile.jpg" alt="Shreenithi V" class="profile-image">
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about section">
+            <div class="section-header">
+                <h2>About</h2>
+                <span class="sub-title">Get to know me</span>
+            </div>
+            <div class="card about-card glass-panel">
+                <p>
+                    I am a pre-final year Computer Science student, also pursuing a degree in Data Science from IIT Madras. I have strong problem-solving skills and a keen interest in building impactful, real-world solutions. My journey in tech involves constantly exploring new technologies, from crafting intuitive front-end interfaces to implementing machine learning models.
+                </p>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section id="education" class="education section">
+            <div class="section-header">
+                <h2>Education</h2>
+                <span class="sub-title">My academic background</span>
+            </div>
+            <div class="timeline">
+                <div class="card glass-panel">
+                    <h3>B.Tech Computer Science</h3>
+                    <p class="highlight">SRM Institute of Science and Technology</p>
+                    <p class="details">CGPA: 9.31</p>
+                </div>
+                <div class="card glass-panel">
+                    <h3>B.S Data Science</h3>
+                    <p class="highlight">Indian Institute of Technology, Madras</p>
+                    <p class="details">CGPA: 7.0</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills section">
+            <div class="section-header">
+                <h2>Skills</h2>
+                <span class="sub-title">My technical toolkit</span>
+            </div>
+            <div class="card glass-panel" style="display: flex; flex-wrap: wrap; gap: 1rem; justify-content: center;">
+                <span class="skill-badge">Python</span>
+                <span class="skill-badge">Java</span>
+                <span class="skill-badge">HTML & CSS</span>
+                <span class="skill-badge">JavaScript</span>
+                <span class="skill-badge">SQL & DBMS</span>
+                <span class="skill-badge">Machine Learning</span>
+                <span class="skill-badge">Data Analysis</span>
+                <span class="skill-badge">Git & GitHub</span>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects section">
+            <div class="section-header">
+                <h2>Projects</h2>
+                <span class="sub-title">What I've built</span>
+            </div>
+            <div class="grid-container">
+                <div class="card glass-panel project-card">
+                    <h3>RoamIQ</h3>
+                    <p>Intelligent travel platform integrating Weather, Traffic, and Crowd APIs with SOS alerts. Track Winner at NextGen Hackathon 2026.</p>
+                </div>
+                <div class="card glass-panel project-card">
+                    <h3>Text Sentiment Analysis</h3>
+                    <p>Machine Learning-based classifier utilizing TextBlob and Newspaper3k, achieving 92% accuracy.</p>
+                </div>
+                <div class="card glass-panel project-card">
+                    <h3>SafeCity AI</h3>
+                    <p>An interactive Streamlit and XGBoost dashboard designed for crime zone prediction and safety analysis.</p>
+                </div>
+                <div class="card glass-panel project-card">
+                    <h3><a href="https://github.com/Shreenithi15/Mental-Health-chatbot" target="_blank" style="color: inherit; text-decoration: none; border-bottom: 1px solid var(--accent-color);">Mental Health Chatbot</a></h3>
+                    <p>An empathetic AI-driven interface for providing mental well-being support and resources.</p>
+                </div>
+                <div class="card glass-panel project-card">
+                    <h3><a href="https://github.com/Shreenithi15/Banking-fraud-detection" target="_blank" style="color: inherit; text-decoration: none; border-bottom: 1px solid var(--accent-color);">Banking Fraud Detection</a></h3>
+                    <p>A robust machine learning pipeline and interactive dashboard for real-time transaction anomaly detection.</p>
+                </div>
+                <div class="card glass-panel project-card">
+                    <h3><a href="https://github.com/Shreenithi15/Finance-management-" target="_blank" style="color: inherit; text-decoration: none; border-bottom: 1px solid var(--accent-color);">Finance Management</a></h3>
+                    <p>A comprehensive system for tracking personal expenses with local data persistence and secure authentication.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience" class="experience section">
+            <div class="section-header">
+                <h2>Experience & Achievements</h2>
+                <span class="sub-title">My professional journey</span>
+            </div>
+            <div class="card glass-panel list-card">
+                <ul>
+                    <li>🏆 <strong>Track Winner</strong> at NextGen Hackathon 2026.</li>
+                    <li>🥈 <strong>2nd Prize</strong> in Paper Presentation at InBOT'25.</li>
+                    <li>📜 <strong>Certifications:</strong> Python for Data Science (NPTEL), Data Mining (NPTEL), ML (NPTEL), DBMS (NPTEL), SQL (HackerRank), and AI (Simplilearn).</li>
+                    <li>💼 <strong>Leadership:</strong> Managing Director at TechVayuna.</li>
+                    <li>🤝 <strong>Volunteering:</strong> Taught tech basics at Tanjai Periyar Government School; GreenVoice Global participant.</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact section">
+            <div class="section-header">
+                <h2>Contact</h2>
+                <span class="sub-title">Get in touch</span>
+            </div>
+            <div class="card glass-panel contact-card">
+                <p>Feel free to reach out to me for collaborations or just a friendly chat.</p>
+                <a href="mailto:shreenithivijayabaskar@gmail.com" class="btn primary-btn mt-2">Say Hello</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2026 Shreenithi V. Built with ❤️</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
